@@ -1,0 +1,66 @@
+/* Style général du tableau */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Style de l'en-tête du tableau */
+  .table thead {
+    background-color: #3498db; /* Couleur de fond pour l'en-tête */
+    color: #ffffff; /* Couleur du texte pour l'en-tête */
+  }
+  
+  /* Style des cellules de l'en-tête du tableau */
+  .table th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #2980b9; /* Bordure inférieure pour séparation */
+  }
+  
+  /* Style des lignes du tableau */
+  .table tbody tr {
+    border-bottom: 1px solid #ecf0f1; /* Ligne de séparation entre les lignes du tableau */
+    transition: background-color 0.3s ease; /* Transition pour un effet de survol */
+  }
+  
+  /* Style des cellules du tableau */
+  .table td {
+    padding: 15px;
+    vertical-align: middle; /* Alignement vertical au centre */
+  }
+  
+  /* Style des lignes au survol */
+  .table tbody tr:hover {
+    background-color: #f9f9f9; /* Couleur de fond au survol */
+  }
+  
+  /* Style des boutons */
+  .btn {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Transition pour un effet de survol */
+  }
+  
+  /* Style des boutons d'édition */
+  .btn-primary {
+    background-color: #2ecc71; /* Couleur de fond pour le bouton d'édition */
+    color: #ffffff; /* Couleur du texte pour le bouton d'édition */
+  }
+  
+  /* Style des boutons d'information */
+  .btn-info {
+    background-color: #3498db; /* Couleur de fond pour le bouton d'information */
+    color: #ffffff; /* Couleur du texte pour le bouton d'information */
+  }
+  
+  /* Style des boutons de suppression */
+  .btn-danger {
+    background-color: #e74c3c; /* Couleur de fond pour le bouton de suppression */
+    color: #ffffff; /* Couleur du texte pour le bouton de suppression */
+  }
+  
+  /* Ajoutez d'autres styles personnalisés selon vos besoins */
+  
